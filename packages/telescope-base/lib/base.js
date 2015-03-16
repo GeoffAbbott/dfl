@@ -232,18 +232,18 @@ postMeta = [
     template: 'postAuthor',
     order: 10
   },
-  {
-    template: 'postInfo',
-    order: 20
-  },
-  {
-    template: 'postCommentsLink',
-    order: 30
-  },
-  {
-    template: 'postAdmin',
-    order: 50
-  }
+  //{
+  //  template: 'postInfo',
+  //  order: 20
+  //},
+  //{
+  //      template: 'postCommentsLink',
+  //      order: 30
+  //  },
+  //{
+  //  template: 'postAdmin',
+  //  order: 50
+  //}
 ]
 // ------------------------------ Callbacks ------------------------------ //
 

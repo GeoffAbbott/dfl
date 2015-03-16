@@ -1,6 +1,9 @@
 body {
   background: #f0f0f0;
 }
+.pink{
+  color: #e354e0 !important;
+}
 .grid-module{
   border-radius: 5px;
 }
@@ -11,14 +14,11 @@ body {
   text-align: center;
 }
 .posts-list .post-upvote{
-  padding: 23px 10px;
+  padding: 10px 21px 10px 18px;
   border-right: #c2c2c2 thin solid;
 }
 .posts-list .post-rank span{
   color: #000;
-}
-.post-domain{
-  color: #e354e0;
 }
 #submitPostForm{
   width: 70%;
@@ -28,4 +28,15 @@ body {
 form .control-group .controls, form .form-group .controls, form .at-input .controls, .accounts-dialog .control-group .controls, .accounts-dialog .form-group .controls, .accounts-dialog .at-input .controls {
 margin-left: 0px;
 }
+}
+
+.post-upvote .upvote-link i{
+  font-size: 17px;
+  width: 35px;
+  height: 35px;
+  line-height: 2.05;
+}
+.pointTally{
+  text-align: center;
+  color: #6B6B6B;
 }
