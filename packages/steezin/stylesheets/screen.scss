@@ -1,0 +1,31 @@
+body {
+  background: #f0f0f0;
+}
+.grid-module{
+  border-radius: 5px;
+}
+.search .search-field{
+  background-color: transparent;
+}
+.dialog{
+  text-align: center;
+}
+.posts-list .post-upvote{
+  padding: 23px 10px;
+  border-right: #c2c2c2 thin solid;
+}
+.posts-list .post-rank span{
+  color: #000;
+}
+.post-domain{
+  color: #e354e0;
+}
+#submitPostForm{
+  width: 70%;
+  margin: 0px auto;
+}
+@media screen and (min-width: 40em){
+form .control-group .controls, form .form-group .controls, form .at-input .controls, .accounts-dialog .control-group .controls, .accounts-dialog .form-group .controls, .accounts-dialog .at-input .controls {
+margin-left: 0px;
+}
+}
