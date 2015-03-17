@@ -9,6 +9,7 @@ body {
 }
 .search .search-field{
   background-color: transparent;
+  border-radius: 0px;
 }
 .dialog{
   text-align: center;
@@ -39,4 +40,66 @@ margin-left: 0px;
 .pointTally{
   text-align: center;
   color: #6B6B6B;
+}
+.posts-day-heading{
+  text-align: center;
+}
+.header{
+  height: 90px;
+}
+#submit{
+  border-radius: 26px;
+  padding: 11px 15px;
+  font-size: 15px;
+  font-weight: bold;
+}
+h3.headerTitle{
+  width: 100%;
+  text-align: center;
+  padding: 50px 0px;
+  border-bottom: #EAEAEA thin solid;
+  margin-bottom: 30px;
+}
+#submitPostForm button{
+  width: 100%;
+  float: left;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 0px;
+}
+.has-dropdown .dropdown-menu{
+  top: 36px;
+  padding-top: 50px;
+  margin-top: -30px;
+}
+.post-body{
+  text-align: center;
+  box-shadow: none;
+}
+.comment-new {
+  max-width: 500px;
+  margin: 0px auto;
+  box-shadow: none;
+}
+.comment-new button{
+  float: right;
+}
+.content-wrapper{
+  padding-bottom: 300px;
+}
+.delete-link{
+  float: right;
+  color: red;
+}
+.action.discuss-link{
+  color: #e354e0;
+}
+.action.discuss-link.count-0{
+  color: #b3c1c6;
+}
+.header .logo{
+  margin-right: 0px;
+}
+.posts-day-heading{
+  margin: 50px;
 }

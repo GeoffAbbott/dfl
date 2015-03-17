@@ -48,15 +48,15 @@ primaryNav = [
 
 secondaryNav = [
   {
-    template: 'userMenu',
+    template: 'submitButton',
     order: 10
   },
   {
-    template:'notificationsMenu',
+    template: 'userMenu',
     order: 20
   },
   {
-    template: 'submitButton',
+    template:'notificationsMenu',
     order: 30
   }
 ];
