@@ -221,17 +221,17 @@ postHeading = [
     template: 'postTitle',
     order: 10
   },
-  {
-    template: 'postDomain',
-    order: 20
-  }
+  //{
+  //  template: 'postDomain',
+  //  order: 20
+  //}
 ];
 
 postMeta = [
-  {
-    template: 'postAuthor',
-    order: 10
-  },
+  //{
+  //  template: 'postAuthor',
+  //  order: 10
+  //},
   //{
   //  template: 'postInfo',
   //  order: 20
